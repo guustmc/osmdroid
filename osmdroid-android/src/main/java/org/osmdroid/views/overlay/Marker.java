@@ -84,9 +84,9 @@ public class Marker extends OverlayWithIW {
     /**
      * @since 6.0.3
      */
-    private boolean mDisplayed;
-    private final Rect mRect = new Rect();
-    private final Rect mOrientedMarkerRect = new Rect();
+    public boolean mDisplayed;
+    public final Rect mRect = new Rect();
+    public final Rect mOrientedMarkerRect = new Rect();
     private Paint mPaint;
 
     public Marker(MapView mapView) {
